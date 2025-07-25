@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="./src/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+     @media (max-width: 768px) {
+  #home img[src*="yaswanth.jpg"] {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 0.5rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .navbar-menu {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 0.5rem;
+    flex-wrap: nowrap !important;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    padding-right: 1rem !important;
+  }
+
+  .flex:not(.navbar) {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+      .px-28, .px-36, .px-40, .px-54, .px-16 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+      }
+      .h-\[100vh\] {
+        height: auto !important;
+      }
+      .grid-cols-3 {
+        grid-template-columns: 1fr !important;
+      }
+      .text-4xl {
+        font-size: 1.5rem !important;
+      }
+      .text-2xl {
+        font-size: 1.25rem !important;
+      }
+      .text-xl {
+        font-size: 1rem !important;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        width: 100% !important;
+      
+      }
+      .iframe {
+        flex-direction: row !important;
+      }
+      footer{
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        padding: 1rem !important;
+      }
+      input{
+        width: 100% !important;
+        margin-bottom: 0.5rem !important;
+      }
+      #about img {
+        width: 70% !important;
+      }
+     }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+<div class="navbar flex justify-between bg-[#191f36] text-white px-28 py-4 items-center fixed min-w-[100vw] z-10">
+  <h1 class="font-bold text-2xl">Portfolio</h1>
+  <div class="navbar-menu flex gap-10 font-bold">
+    <a href="#home" class="hover:text-blue-400">Home</a>
+    <a href="#about" class="hover:text-blue-400">About</a>
+    <a href="#services" class="hover:text-blue-400">Services</a>
+    <a href="#skills" class="hover:text-blue-400">Skills</a>
+    <a href="#contact" class="hover:text-blue-400">Contact</a>
+  </div>
+</div>
+  <!-- home -->
+   <div class="flex justify-between bg-[#191f36] h-[100vh] text-white py-44 px-36 gap-18" id="home">
+    <div>
+    <h1 class="text-4xl font-bold">Hi, <span>Myself</span> <br>Punugoti Yaswanth <br>And I'm a <span class="text-blue-400">Full Stack Developer</span></h1>
+    <p class="">Passionate about building seamless digital experiences with clean architecture and bold design<br>
+Driven by curiosity, learning, and the joy of solving complex technical challenges</p>
+<h2 class="text-2xl font-semibold text-indigo-500 mb-4">📘 Academic Journey</h2>
+<div class="max-w-3xl mx-auto mt-10 bg-[#191f36] p-6 rounded-lg shadow-md">
+  <ul class="space-y-4 px-5">
+      <li class="border-l-4 border-indigo-400 pl-4">
+        <h3 class="text-xl font-bold">10th Grade – Narayana School</h3>
+        <p class="text-gray-700">GPA: <span class="font-semibold">9.7 / 10</span></p>
+      </li>
+      <li class="border-l-4 border-indigo-400 pl-4">
+        <h3 class="text-xl font-bold">12th Grade – Narayana School</h3>
+        <p class="text-gray-700">Marks: <span class="font-semibold">941 / 1000</span></p>
+      </li>
+      <li class="border-l-4 border-indigo-400 pl-4">
+        <h3 class="text-xl font-bold">B.E – RMK Engineering College</h3>
+        <p class="text-gray-700">GPA: <span class="font-semibold">8.1 / 10</span></p>
+      </li>
+    </ul>
+</div>
+<div class="iframe flex gap-5 my-6">
+    <a href="https://github.com/yaswanthpunugoti" target="_blank" class="border-2 border-blue-400 w-[40px] h-[40px] rounded-full text-2xl flex justify-center items-center hover:bg-blue-300 hover:text-black"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/yaswanth-punugoti-263537282/" target="_blank"class="border-2 border-blue-400 w-[40px] h-[40px] rounded-full text-2xl flex justify-center items-center hover:bg-blue-300 hover:text-black"><i class="fa-brands fa-linkedin ml-4"></i></a>
+    <a href="https://x.com/YPunugoti" target="_blank" class="border-2 border-blue-400 w-[40px] h-[40px] rounded-full text-2xl flex justify-center items-center hover:bg-blue-300 hover:text-black"><i class="fa-brands fa-x-twitter ml-4"></i>  </a>
+    <a href="https://www.instagram.com/_p_yashu_/" target="_blank" class="border-2 border-blue-400 w-[40px] h-[40px] rounded-full text-2xl flex justify-center items-center hover:bg-blue-300 hover:text-black"><i class="fa-brands fa-instagram ml-4"></i></a>
+    <a href="https://www.facebook.com/yaswanth.punugoti" target="_blank" class="border-2 border-blue-400 w-[40px] h-[40px] rounded-full text-2xl flex justify-center items-center hover:bg-blue-300 hover:text-black"><i class="fa-brands fa-facebook ml-4"></i></a>
+    </div>
+    <a href="https://drive.google.com/file/d/1Bz3VibChnFvtSDrXSsSs_xRKGACMrpSZ/view?usp=sharing" class="bg-blue-400 rounded-3xl px-4 py-3">Download CV</a>
+   </div>
+   <div class="">
+    <img src="yaswanth.jpg" alt="not found" class="hidden md:block rounded-full animate-bounce w-[300px] h-[300px] hover:shadow-white hover:shadow-2xl">
+   </div>
+   </div>
+<!-- about -->
+  <section class="bg-[#262b40] flex text-white gap-16 px-54 py-26 h-[100vh]" id="about">
+            <div class="border-2 border-blue-300 rounded-4xl flex justify-between items-center px-4">
+                <img src="yaswanth.jpg" alt="" class="w-[1000px] h-[300px] rounded-4xl">
+            </div>
+
+            <div class="flex flex-col justify-center ali">
+                <h1 class="font-bold text-4xl">About <span class="text-blue-400">Me</span> </h1>
+                <h3 class="font-bold text-2xl py-3">Full Stack Developer</h3>
+                <p class="text-justify mb-3">
+                    Highly motivated and detail-oriented Computer Science student with a strong foundation in full-stack development,
+    programming (Java, Python, SQL).Adept at solving real-world problems through technology with a passion for learning and 
+    building impactful software Demonstrates strong teamwork, adaptability, and a continuous drive for excellence in fast-paced environments.
+                </p>
+            </div>
+         </section>
+ <!-- services -->
+  <div class="h-[100vh] bg-[#191f36]" id="services">
+    <h1 class="text-4xl text-white font-bold text-center py-26 pb-20 ">My <span class="text-blue-400">Services</span></h1>
+    <div class="grid grid-cols-3 gap-8 border-blue-300 gap-8 px-16 text-center">
+        <div class="bg-[#262b40] rounded-2xl py-4 pb-20 hover:scale-105 duration-1000 hover:border-2 border-blue-300">
+          <img src="hosp.jpg" alt="not found" class="text-center rounded-2xl w-[100%] p-3">
+           <h1 class="text-2xl text-white font-bold">Hospital Management</h1><br>
+            <p class="text-white">It's a digital framework designed to streamline clinical, administrative, and financial operations within healthcare facilities, ensuring efficient patient care and resource allocation</p>
+           <br> <a href="hospital.html" target="_blank" class="bg-blue-400 rounded-3xl px-4 py-3">Read More</a>
+        </div>
+         <div class="bg-[#262b40] rounded-2xl py-4 pb-20 hover:scale-105 duration-1000 hover:border-2 border-blue-300">
+            <img src="download.jpg" alt="not found" class="text-center rounded-2xl p-3 w-[100%]">
+            <h1 class="text-2xl text-white font-bold">Wheat Disease Classification</h1><br>
+            <p class="text-white">It organizes illnesses based on symptoms, causes, and physiological effects—essential for diagnosis, treatment planning, and global health data reporting.</p>
+           <br> <a href="wheat.html" target="_blank" class="bg-blue-400 rounded-3xl px-4 py-3">Read More</a>
+        </div>
+         <div class="bg-[#262b40] rounded-2xl py-4 pb-20 hover:scale-105 duration-1000 hover:border-2 border-blue-300">
+            <img src="sports.jpg" alt="not found" class="text-center rounded-2xl p-3">
+            <h1 class="text-2xl text-white font-bold">Sports Event</h1><br>
+            <p class="text-white"> It's a centralized platform that allows participants to enroll in various indoor and outdoor games like chess, badminton, football, and cricket by submitting personal details, selecting preferred events, and receiving schedules or updates.</p>
+           <br> <a href="sport.html" target="_blank" class="bg-blue-400 rounded-3xl px-4 py-3">Read More</a>
+        </div>
+    </div>
+  </div>
+  <!--skills-->
+  <section class="bg-[#191f36] text-white h-[100vh]" id="skills">
+            <h1 class="font-bold text-center text-4xl mb-16 py-26 mb-6">My <span class="text-blue-400">Skills</span></h1>
+
+            <div class="grid grid-cols-2 px-40 gap-18">
+                <div>
+                    <div class="flex justify-between relative py-4 mb-3">
+                        <h1>Java</h1>
+                        <span>90%</span>
+                        <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                        <div class="absolute bottom-0 h-2 w-[90%] bg-blue-300 rounded-4xl"></div>
+                    </div>
+
+                    <div class="flex justify-between relative py-4 mb-3">
+                        <h1>SQL</h1>
+                        <span>80%</span>
+                        <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                        <div class="absolute bottom-0 h-2 w-[80%] bg-blue-300 rounded-4xl"></div>
+                    </div>
+
+                    <div class="flex justify-between relative py-4 mb-3">
+                        <h1>Python</h1>
+                        <span>85%</span>
+                        <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                        <div class="absolute bottom-0 h-2 w-[85%] bg-blue-300 rounded-4xl"></div>
+                    </div>
+
+                    <div class="flex justify-between relative py-4 mb-3">
+                        <h1>HTML</h1>
+                        <span>95%</span>
+                        <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                        <div class="absolute bottom-0 h-2 w-[95%] bg-blue-300 rounded-4xl"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex justify-between relative py-4 mb-3">
+                        <h1>CSS</h1>
+                        <span>70%</span>
+                        <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                        <div class="absolute bottom-0 h-2 w-[70%] bg-blue-300 rounded-4xl"></div>
+                    </div>
+
+                    <div class="flex justify-between relative py-4 mb-3">
+                        <h1>C</h1>
+                        <span>75%</span>
+                        <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                        <div class="absolute bottom-0 h-2 w-[75%] bg-blue-300 rounded-4xl"></div>
+                    </div>
+
+                    <div class="flex justify-between relative py-4 mb-3">
+                        <h1>Tailwindcss</h1>
+                        <span>70%</span>
+                        <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                        <div class="absolute bottom-0 h-2 w-[70%] bg-blue-300 rounded-4xl"></div>
+                    </div>
+
+                    <div class="flex justify-between relative py-4 mb-3">
+                        <h1>Javascript</h1>
+                        <span>80%</span>
+                        <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                        <div class="absolute bottom-0 h-2 w-[80%] bg-blue-300 rounded-4xl"></div>
+                    </div>
+                </div>
+            </div>
+           </section>
+        
+    </div>
+  </div>
+    <!-- Contact Section -->
+            <section class="bg-[#191f36] text-white h-[90vh]" id="contact">
+                <h1 class="font-bold text-center text-4xl py-26 pb-20">Contact <span class="text-blue-400">Me</span></h1>
+
+                <form class="text-center w-[50%] ml-auto mr-auto">
+                    <div>
+                        <input type="text" placeholder="Enter Your name" class="bg-[#262b40] p-3 rounded-2xl outline-none w-[49%]">
+                        <input type="email" placeholder="Enter your email" class="bg-[#262b40] p-3 rounded-2xl outline-none w-[49%]">
+                    </div>
+
+                    <div class="my-2">
+                        <input type="text" placeholder="Enter your mobile" class="bg-[#262b40] p-3 rounded-2xl  w-[49%]">
+                        <input type="text" placeholder="Enter email subject" class="bg-[#262b40] p-3 rounded-2xl w-[49%]">
+                    </div>
+
+                    <textarea cols="30" rows="7" placeholder="Your Message" class="bg-[#262b40] p-3 rounded-2xl  w-[100%] resize-none mb-6"></textarea>
+                    <a href="" class="bg-blue-400 px-5 py-3 rounded-4xl">Send Messages</a>
+                </form>
+            </section>
+
+
+            <!-- Footer -->
+             <footer class="bg-[#262b40] text-white flex py-5 justify-between px-30">
+                <div>
+                    <p>Copyright © 2025 by Punugoti Yaswanth| All Rights Reserved</p>
+                </div>
+
+                <div>
+                    <a href="#home" class="bg-blue-400 p-3 rounded-2xl">
+                        <i class="fa-solid fa-angles-up text-2xl"></i>
+                    </a>
+                </div>
+             </footer>
+ </body>
+</html>
